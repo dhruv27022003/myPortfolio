@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='abc '
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='abc@xyz.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -353,7 +353,7 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}
-                            {socialsData.medium && (
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,8 +362,8 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
-                            {socialsData.blogger && (
+                            )} */}
+                            {/* {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
                                     target='_blank'
@@ -372,8 +372,8 @@ function Contacts() {
                                 >
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
-                            )}
-                            {socialsData.youtube && (
+                            )} */}
+                            {/* {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
                                     target='_blank'
@@ -422,7 +422,7 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </div>
