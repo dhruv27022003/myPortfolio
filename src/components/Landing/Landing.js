@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
+import { AiFillInstagram } from "react-icons/ai";
 
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -114,20 +115,20 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                < AiFillInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {/* {socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
                                 target='_blank'
@@ -139,7 +140,7 @@ function Landing() {
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img

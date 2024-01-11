@@ -223,7 +223,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Education
                                     </span>
                                 </div>
                             </NavLink>
@@ -236,14 +236,14 @@ function Navbar() {
                                 spy='true'
                                 duration={2000}
                             >
-                                <div className={classes.drawerItem}>
+                                {/* <div className={classes.drawerItem}>
                                     <BsFillGearFill
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
                                         Services
                                     </span>
-                                </div>
+                                </div> */}
                             </NavLink>
                         </Fade>
 
@@ -254,14 +254,14 @@ function Navbar() {
                                 spy='true'
                                 duration={2000}
                             >
-                                <div className={classes.drawerItem}>
+                                {/* <div className={classes.drawerItem}>
                                     <FaFolderOpen
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
                                         Blog
                                     </span>
-                                </div>
+                                </div> */}
                             </NavLink>
                         </Fade>
 

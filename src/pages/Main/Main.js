@@ -5,8 +5,15 @@ import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, 
 import { headerData } from '../../data/headerData'
 
 function Main() {
+
+    const appStyle = {
+            maxWidth: '100vw',
+            overflow: 'hidden',
+      };
+
+
     return (
-        <div>
+        <div className='mainn'  style={appStyle}>
             <Helmet>
                 <title>{headerData.name} - Porfolio</title>
             </Helmet>
