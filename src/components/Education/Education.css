@@ -1,5 +1,6 @@
 .education {
     min-height: 100vh;
+
 }
 
 .education-body {
@@ -7,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
     width: 100%;
     color: hsla(117, 56%, 49%, 0.702);
 }
@@ -20,6 +22,7 @@
     align-items: flex-start;
     justify-content: center;
     margin-left: 7%;
+    height: fit-content;
 }
 
 .education-description > h1{
@@ -35,6 +38,7 @@
     justify-content: flex-start;
     width: 90%;
     height: 140px;
+    min-height: fit-content;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -130,7 +134,8 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        max-width: 85vw;
+        height: fit-content;
     }
     .educard-img {
         border-radius: 50%;
