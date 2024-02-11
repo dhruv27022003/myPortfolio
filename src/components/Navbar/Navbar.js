@@ -183,12 +183,14 @@ function Navbar() {
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
+                                style={{textDecoration: 'none'}}
                             >
                                 <div className={classes.drawerItem}>
                                     <IoHomeSharp
                                         className={classes.drawerIcon}
                                     />
-                                    <span className={classes.drawerLinks}>
+                                    <span className={classes.drawerLinks} 
+                                    >
                                         Home
                                     </span>
                                 </div>
@@ -201,10 +203,13 @@ function Navbar() {
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
+                                style={{textDecoration: 'none'}}
                             >
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
-                                    <span className={classes.drawerLinks}>
+                                    <span className={classes.drawerLinks}
+                                     style={{textDecoration: 'none'}}
+                                    >
                                         About
                                     </span>
                                 </div>
@@ -217,6 +222,7 @@ function Navbar() {
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
+                                style={{textDecoration: 'none'}}
                             >
                                 <div className={classes.drawerItem}>
                                     <HiDocumentText
@@ -235,6 +241,7 @@ function Navbar() {
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
+                                style={{textDecoration: 'none'}}
                             >
                                 {/* <div className={classes.drawerItem}>
                                     <BsFillGearFill
@@ -271,6 +278,7 @@ function Navbar() {
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
+                                style={{textDecoration: 'none'}}
                             >
                                 <div className={classes.drawerItem}>
                                     <MdPhone className={classes.drawerIcon} />

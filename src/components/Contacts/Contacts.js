@@ -174,6 +174,7 @@ function Contacts() {
                     <div className='contacts-details'>
                         <a
                             href={`mailto:${contactsData.email}`}
+                            style={{ textDecoration: 'none' }}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
@@ -185,6 +186,7 @@ function Contacts() {
                         </a>
                         <a
                             href={`tel:${contactsData.phone}`}
+                            style={{ textDecoration: 'none' }}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
